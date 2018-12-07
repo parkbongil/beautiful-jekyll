@@ -29,7 +29,7 @@ How about a yummy crepe?
 
 Here's a code chunk:
 
-~~~javascript
+~~~
 var foo = function(x) {
   return(x + 5);
 }
