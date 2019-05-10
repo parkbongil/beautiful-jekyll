@@ -2,7 +2,7 @@
 layout: page
 title: About me
 subtitle: 업무코딩에서 생활코딩으로
-image: /img/vinylc_logo.jpeg
+image: /img/vinylc_logo.jpg
 ---
 
 ![Aboutme](./img/vinylc_parkbongil.png)  
