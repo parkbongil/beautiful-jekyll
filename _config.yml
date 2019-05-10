@@ -23,7 +23,7 @@ description: 업무코딩에서 생활코딩으로
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "https://parkbongil.github.io/"
+  #Home: "https://parkbongil.github.io/"
   About: "aboutme"
   Feed: "feed.xml"
   Search: "https://www.google.com/search?q=site:parkbongil.github.io"
