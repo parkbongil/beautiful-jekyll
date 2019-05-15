@@ -767,6 +767,10 @@ td.gutter {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
+#main-navbar ul {
+  visibility: visible;
+}
+
 /* Tags page */
 
 .tag-btn {
