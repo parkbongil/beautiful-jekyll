@@ -5,7 +5,8 @@ subtitle: 업무코딩에서 생활코딩으로
 image: /img/vinylc_logo.jpg
 ---
 
-![Aboutme](./img/vinylc_parkbongil.png)  
+![Aboutme](./img/vinylc_parkbongil.png)    
+
 안녕하세요. 박봉일 입니다.
 
 가장 쓸모있는 경험을 디자인하는 곳에서 백엔드개발을 담당하고 있습니다.  
