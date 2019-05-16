@@ -794,3 +794,9 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+/* Googele Adsense */
+.google-ad {
+  text-align: center;
+  padding: 10px;
+}

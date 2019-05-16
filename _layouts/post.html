@@ -52,15 +52,7 @@ layout: base
         {% include social-share.html %}
       {% endif %}
 
-      <div>
-        <script src="https://utteranc.es/client.js"
-                repo="parkbongil/parkbongil.github.io"
-                issue-term="pathname"
-                theme="github-light"
-                crossorigin="anonymous"
-                async>
-        </script>
-      </div>
+      {% include utterances.html %}
 
       <ul class="pager blog-pager">
         {% if page.previous.url %}

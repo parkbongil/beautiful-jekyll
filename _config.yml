@@ -114,7 +114,7 @@ url-pretty: "https://parkbongil.github.io/"  # eg. "deanattali.com/beautiful-jek
 google_analytics: "UA-140239368-1"
 
 # Google Tag Manager ID
-#gtm: ""
+gtm: "GTM-WLXPVQ4"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
