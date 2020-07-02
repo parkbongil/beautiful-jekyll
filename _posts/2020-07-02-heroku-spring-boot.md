@@ -37,7 +37,7 @@ database-name: heroku_fcd419078efa524
 
 ### Spring Boot 프로젝트 생성
 
-start.spring.io 또는 사용하는 IDE에서 프로젝트를 생성한다.  
+[start.spring.io](https://start.spring.io/) 또는 사용하는 IDE에서 프로젝트를 생성한다.  
 Heroku를 이용하기 위해 특별하게 설정할 것은 없다.  
 간단히 테스트를 위한 프로젝트라 운영환경을 구분하지 않고 환경설정 파일(application.yml)에 port를 80으로 했다.
 
@@ -75,7 +75,7 @@ Google 폰트는 배열로 리턴하므로 한글폰트만 먼저 추출하고 �
 
 대시보드의 Deply 탭에 보면 Heroku에 배포하는 방법은 현재 3가지를 제공하고 각각의 방법이 설명되어 있다.  
 간단하게 Heroku Git으로 배포하려면 먼저 Heroku CLI(Command Line Interface)를 운영체제에 맞게 설치하고 가이드에 맞게 진행하면 된다.  
-참고. Heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
+참고. Heroku CLI: [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
 
 ```
 heroku login
@@ -118,7 +118,7 @@ git push heroku master
 ### 어플리케이션 확인
 
 ![baenam-herokuapp-com](/img/baenam_herokuapp_com.png)  
-메인페이지: https://baenam.herokuapp.com  
-DB접속페이지: https://baenam.herokuapp.com/testdb
+메인페이지: [https://baenam.herokuapp.com](https://baenam.herokuapp.com)  
+DB접속페이지: [https://baenam.herokuapp.com/testdb](https://baenam.herokuapp.com/testdb)
 
-참고로, Heroku 서비스는 30분 이상 접속이 없으면 sleep 모드로 들어가는데 이때 접속하면 활성화되는 시간만큼 delay가 생기므로 무료로 Cronjob을 제공하는 cron-job.org에서 30분마다 접속하는 것으로 설정하면 sleep 모드없이 접속할 수 있다.
+참고로, Heroku 서비스는 30분 이상 접속이 없으면 sleep 모드로 들어가는데 이때 접속하면 활성화되는 시간만큼 delay가 생기므로 무료로 Cronjob을 제공하는 [cron-job.org](https://cron-job.org/)에서 30분마다 접속하는 것으로 설정하면 sleep 모드없이 접속할 수 있다.
