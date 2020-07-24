@@ -20,6 +20,8 @@ tags: [KBS, Tuner]
 ![kbs-fm-map](/img/kbs_fm_map.png)  
 아날로그 튜너를 고려한다면 가장 먼저 확인해야 하는 것이 수신위치에서의 전파경로 및 수신상태인데, [KBS 수신안내지도](https://map.kbs.co.kr/map.jsp)에서 확인 가능하다. 만약 노란색(잡음발생)영역에서 FM 방송을 들어야 한다면 아날로그 튜너는 깨끗이 접고 인터넷으로 전환해야 한다. 수신불량 지역에서 최고급의 튜너, 안테나, 증폭기, 필터 등 장비빨(?)로 극복했다는 뉴스나 블로그를 본 적이 없다. 사용법은 구글링하면 자세히 나와있지만 '주소입력>FM방송선택>FM채널선택>FM주파수선택' 으로 수신위치에서 전파경로분석과 수신상태를 대략적으로 확인 할 수 있다.
 
+- KBS kong: [Andoird](https://play.google.com/store/apps/details?id=kr.co.kbs.kong), [iOS](https://apps.apple.com/kr/app/kbs-kong/id928368733)
+
 ### 튜너랭킹
 
 구글링에서 나오는 튜너 랭킹은 대부분 [Tuner Information Center](ttps://www.fmtunerinfo.com/standings.html)에서 참조하는 듯 한데, 최종버전이 2006년 2월 12일 이지만 기본적으로 빈티지 튜너에 대한 정보를 제공하는 곳이라 감안해서 참고하면 될 듯 하다. 튜너도 전자제품이라 수명이 있으므로 관리(콘덴서 교체 등)에 스트레스가 있으면 너무 오래된 것은 피하는게 맞을 것 같고, 기본적으로 스펙도 확인하고 선택하는게 현명해 보인다.
