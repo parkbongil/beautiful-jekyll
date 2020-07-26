@@ -18,7 +18,7 @@ tags: [KBS, Tuner]
 ### KBS 수신안내지도
 
 ![kbs-fm-map](/img/kbs_fm_map.png)  
-아날로그 튜너를 고려한다면 가장 먼저 확인해야 하는 것이 수신위치에서의 전파경로 및 수신상태인데, [KBS 수신안내지도](https://map.kbs.co.kr/map.jsp)에서 확인 가능하다. 만약 노란색(잡음발생)영역에서 FM 방송을 들어야 한다면 아날로그 튜너는 깨끗이 접고 인터넷으로 전환해야 한다. 수신불량 지역에서 최고급의 튜너, 안테나, 증폭기, 필터 등 장비빨(?)로 극복했다는 뉴스나 블로그를 본 적이 없다. 사용법은 구글링하면 자세히 나와있지만 '주소입력>FM방송선택>FM채널선택>FM주파수선택' 으로 수신위치에서 전파경로분석과 수신상태를 대략적으로 확인 할 수 있다.
+아날로그 튜너를 고려한다면 가장 먼저 확인해야 하는 것이 수신위치에서의 전파경로 및 수신상태인데, [KBS 수신안내지도](https://map.kbs.co.kr/map.jsp)에서 확인 가능하다. 만약 노란색(잡음발생)영역에서 FM 방송을 들어야 한다면 아날로그 튜너는 깨끗이 접고 스트리밍 서비스로 전환해야 한다. 수신불량 지역에서 최고급의 튜너, 안테나, 증폭기, 필터 등 장비빨(?)로 극복했다는 뉴스나 블로그를 아직 본 적이 없다. 사용법은 구글링하면 자세히 나와있지만 '주소입력>FM방송선택>FM채널선택>FM주파수선택' 으로 수신위치에서 전파경로분석과 수신상태를 대략적으로 확인 할 수 있다.
 
 - KBS kong: [Andoird](https://play.google.com/store/apps/details?id=kr.co.kbs.kong), [iOS](https://apps.apple.com/kr/app/kbs-kong/id928368733)
 
@@ -38,12 +38,12 @@ FM 주파수 특성상 주파수를 변조하기 전에 증폭을 해서 송신�
 
 ### 디지털 튜너의 가능성
 
-소프트웨어의 발달(?)로 튜너에서도 새로운 패러다임이 도입되고 있는데 쉽게 예기하자면 '전파만 받아주면 나머지는 소프트웨어가 할께'라는 의미이다. FPGA(Field Programmable Gate Array)로 접근하는 papa FM tunner와 SDR(Software-defined radio)를 활용한 소프트웨어 튜너가 대표적이다.  
-물론 둘 다 고품질 전파를 필요로하며 평가도 엄청 좋은 편이다. 편하게 한방(?)에 가려면 papa FM tunner를 추천하고 PC와 친하고 저렴하게 가려면 SDR도 좋은 선택이 될 것이다. SDR도 저렴한 것부터 고가까지 있으니 적당한 수준(Airspy HF+ 추천)에서 선택하고 세팅만 잘하면 아날로그 튜너보다 훨씬 고음질로 청취할 수 있다.  
+소프트웨어의 발달(?)로 튜너에서도 새로운 패러다임이 도입되고 있는데 쉽게 예기하자면 '전파만 받아주면 나머지는 소프트웨어로 처리할께'라는 의미이다. FPGA(Field Programmable Gate Array)로 접근하는 papa FM tuner와 SDR(Software-defined radio)를 활용한 소프트웨어 튜너가 대표적이다.  
+물론 둘 다 고품질 전파를 필요로하며 평가도 엄청 좋은 편이다. 편하게 한방(?)에 가려면 papa FM tuner를 추천하고 PC와 친하고 저렴하게 가려면 SDR도 좋은 선택이 될 것이다. SDR도 저렴한 것부터 고가까지 있으니 적당한 수준(Airspy HF+ 추천)에서 선택하고 세팅만 잘하면 아날로그 튜너보다 훨씬 고음질로 청취할 수 있다.  
 ![hfplus-discovery](/img/hfplus_discovery.png)  
 (Airspy.com의 Airspy HF+ Discovery)
 
-- papa FM tunner: [http://www.paparadio.net/](http://www.paparadio.net/)
+- papa FM tuner: [http://www.paparadio.net/](http://www.paparadio.net/)
 - SDR hardware: [http://www.hdsdr.de/hardware.html](http://www.hdsdr.de/hardware.html)
 - SDR software: [https://www.sdr-radio.com/](https://www.sdr-radio.com/)
 
