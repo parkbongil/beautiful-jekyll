@@ -37,6 +37,7 @@ navbar-links:
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/img/avatar-icon.png"
+avatar-og: "/img/avatar-icon-og.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -103,7 +104,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://parkbongil.github.io/"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "https://parkbongil.github.io/" # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -137,14 +138,14 @@ gtm: "GTM-WLXPVQ4"
 
 # Staticman support
 staticman:
-  repository : "parkbongil/parkbongil.github.io"
-  branch     : "master"
-  endpoint   : # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
+  repository: "parkbongil/parkbongil.github.io"
+  branch: "master"
+  endpoint: # URL of your own deployment (with trailing slash) (will fallback to a public GitLab instance)
   reCaptcha:
     # reCaptcha for Staticman (OPTIONAL)
     # If you use reCaptcha, you must also set these parameters in staticman.yml
-    siteKey  : "6LcdwqIUAAAAAC7Em-kBUI4dwSFYrfAiUeE0cKY2"
-    secret   : "Hm7wMyJCRNjjF4MasmC/vMOd1wZYJPniXFV216QYNfCVl9kXukFE+7z8723Qwgth1BGJhRDEzwmbWWHgTQgbxKJqxFceq9Myka9PqeTcfSnxU0ac7JrG5g4btpaGzyrouQ2+dqb6iQMsfplVyXSIoq6Dy7z9AtZXttRzakmNsEiMiwoNrN7LtHvwzg7cG8jJKu6sy1Ga+tVnD6woeZ5ncIvb13sWk+kWFDUmbf7flbdf+fG1SISdPG3m7TZ6jHh/1zvWWd/wCtyf/RtEqjKAbDIuQojMW8LZh4KprdwRjgw6Ok0ez1lZEnk/Z+P1l9kWo7JGEwiH3FoRJx0xkW1jiw=="
+    siteKey: "6LcdwqIUAAAAAC7Em-kBUI4dwSFYrfAiUeE0cKY2"
+    secret: "Hm7wMyJCRNjjF4MasmC/vMOd1wZYJPniXFV216QYNfCVl9kXukFE+7z8723Qwgth1BGJhRDEzwmbWWHgTQgbxKJqxFceq9Myka9PqeTcfSnxU0ac7JrG5g4btpaGzyrouQ2+dqb6iQMsfplVyXSIoq6Dy7z9AtZXttRzakmNsEiMiwoNrN7LtHvwzg7cG8jJKu6sy1Ga+tVnD6woeZ5ncIvb13sWk+kWFDUmbf7flbdf+fG1SISdPG3m7TZ6jHh/1zvWWd/wCtyf/RtEqjKAbDIuQojMW8LZh4KprdwRjgw6Ok0ez1lZEnk/Z+P1l9kWo7JGEwiH3FoRJx0xkW1jiw=="
 
 # --- Misc --- #
 
@@ -174,16 +175,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: false  # add comments to all blog posts
+      comments: false # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # all files
     values:
       layout: "page"
@@ -205,8 +204,8 @@ exclude:
 
 # prose.io config
 prose:
-  rooturl: '_posts'
-  media: 'img'
+  rooturl: "_posts"
+  media: "img"
   ignore:
     - 404.html
     - LICENSE
@@ -258,6 +257,5 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
